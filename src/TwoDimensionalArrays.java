@@ -13,5 +13,15 @@ public class TwoDimensionalArrays {
 	}
 
 	// output rows and columns of a two-dimensional array
+	public static void outputArray(int[][] array) {
+		// loop through array's rows
+		for (int row = 0; row < array.length; row++) {
+			// loop through columns of current row
+			for (int column = 0; column < array[row].length; column++) {
+				System.out.printf("%d ", array[row][column]);
+			}
+			System.out.println();
+		}
+	}
 
 }
