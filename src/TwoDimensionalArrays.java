@@ -8,7 +8,7 @@ public class TwoDimensionalArrays {
 		System.out.println("Values in array1 by row are");
 		outputArray(array1); // displays array1 by row
 
-		System.out.println("%nValues in array2 by row are %n");
+		System.out.println("\nValues in array2 by row are \n");
 		outputArray(array2); // displays array2 by row
 	}
 
